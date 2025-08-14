@@ -1,20 +1,6 @@
-<!-- # PROJETOS
-  ProgramadorBR
-        * [1 -]<a href="./HTML5-CSS3/PROGBR/1 - Projeto Curriculo/>">1 - Projeto Curriculo</a>
-        <!-- <a href="./HTML5-CSS3/PROGBR/2 - Projeto Página de conteúdo/">2 - Projeto Página de conteúdo</a>
-        <a href="./HTML5-CSS3/PROGBR/3 - Projeto Página de Receitas/">3 - Projeto Página de Receitas</a>
-        <a href="./HTML5-CSS3/PROGBR/4 - Projeto Página de captura/">4 - Projeto Página de captura</a>
-        <a href="./HTML5-CSS3/PROGBR/5 - Projeto Social Links/">5 - Projeto Social Links</a>
+# Curso em Video HTML5 e CSS3
 
-
-<!-- <h2>Curso em Video HTML5 + CSS3</h2>
-    <a href="./HTML5-CSS3/GUSTAVOGUANABARA/1 - Projeto Android/">1 - Projeto Android</a> -->
-
-# Curso de HTML5 e CSS3
-
-Material público para o ensino básico de HTML5 e CSS3 para alunos iniciantes. Acesse o material em PDF, analise o código disponibilizado para cada exercício e veja-os funcionando em execução direta via repositório GitHub.
-
-* [Acesse os PDFs das aulas clicando aqui](https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf)
+* [Acesse os PDFs das aulas clicando aqui](./HTML5-CSS3/GUSTAVOGUANABARA/1%20-%20Projeto%20Android/)
 * [Código disponível para os exercícios](https://github.com/gustavoguanabara/html-css/tree/master/exercicios)
 * [Execute os exercícios aqui](https://gustavoguanabara.github.io/html-css/exercicios/)
 * [Resolva os desafios de HTML aqui](https://github.com/gustavoguanabara/html-css/tree/master/desafios)
