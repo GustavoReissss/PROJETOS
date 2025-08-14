@@ -1,0 +1,95 @@
+body {
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.top-bar {
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(./images/hero_bolo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    max-width: 990px;
+    padding: 0 40px;
+}
+h1, h2, h3{
+    color: #ff6b28;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.cartao{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.cartao:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.ingredientes{
+    cursor: url("./images/cursor_ingredientes.png"), pointer ;
+}
+
+.preparo{
+cursor: url('./images/cursor_preparo.png'), pointer;
+}
+
+.instruções{
+     cursor: url("./images/cursor_intrucoes.png"), pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff6b28;
+    padding: 16px;
+    border-radius: 20px;
+    /* cursor: url("./images/cursor_ingredientes.png"), pointer ; */
+}
+
+li{
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes{
+    margin-bottom: 50px;
+}
+
+p{
+    line-height: 28px;
+}
+
+footer{
+    background-color: #ff6b28;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+}

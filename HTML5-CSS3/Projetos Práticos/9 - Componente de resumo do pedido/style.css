@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card{
+    max-width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    background-image: url(./images/illustration-hero.svg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 1.8em;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+h1, p{
+    max-width: 70%;
+    margin: auto;
+}
+
+.content-plan{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.icon-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.annual{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.content-plan>a{
+    margin-left: auto;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.content-plan>a:hover{
+    text-decoration: none;
+}
+
+button{
+    width: 78%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: hsla(245, 75%, 52%, 0.842);
+}
+
+.cancel{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);;
+}
+
+@media screen and (max-width: 450px){
+    
+    body{
+        font-size: 14px;
+    }
+
+    .card{
+        max-width: 90%;
+        margin-top: 10px;
+    }
+}
+
+

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+
+.card{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.perfil{
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.perfil>img{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.perfil>p{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 5px;
+}
+
+.idade{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.cidade{
+    color: hsl(227, 10%, 46%);
+    font-size: 0.9em;
+}
+
+.content-stats{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.418);
+
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+}
+
+.numbers{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+
+}
+
+.name{
+    font-size: 0.7em;
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 0.1em;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://i.scdn.co/image/ab67616d00001e02086ad8eb3e502062d70b5d7d"
+      />
+
+      <audio id="music">
+        <source src="./Swimming Paul - Vhs.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="descri">
+        <span class="music"> Vhs </span>
+        <span class="artista"> Swimming Paul </span>
+      </div>
+
+      <div class="controle">
+        <img onclick="back()" src="./images/step-backward.png" />
+        <div class="play">
+          <img id="image" src="./images/play (1).png" />
+        </div>
+        <img onclick="avançar()" src="./images/step-forward.png" />
+      </div>
+
+      <div class="timer">
+        <span class="timer-vivo">0:00</span>
+        <input type="range" class="barra-progress" id="progress" value="0" min="0" step="1" />
+        <span class="timer-final">0:00</span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

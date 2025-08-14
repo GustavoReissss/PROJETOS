@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B3B3B3;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    font-family: "inter";
+    font-size: 15px;
+
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    align-self: center;
+    border-radius: 10px;
+}
+
+.descri{
+    width: 60%;
+    margin-top: 10px;
+    /* border: 1px solid; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.music{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.artista{
+    color: #B3B3B3;
+    font-weight: 600;
+}
+
+.controle{
+    /* border: 1px solid; */
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 20px;
+}
+
+.controle>img{
+    width: 23px;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.play>img{
+    width: 20px;
+    align-self: center;
+    border-radius: 0;
+}
+
+.timer{
+    /* border: 1px solid; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 15px;
+
+    /* font-family: mon; */
+
+    color: #B3B3B3;
+}
+
+.timer>span{
+    width: 20px;
+}
+
+
+.barra-progress{
+    width: 75%;
+    height: 5px;
+
+    color: #8d8d8d;
+
+}
