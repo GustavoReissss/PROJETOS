@@ -69,6 +69,7 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 section.imagem > p {
@@ -81,10 +82,14 @@ section.imagem > p {
 section#img1{
     background-image: url(./imagens/background001.jpg);
     background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img2{
     background-image: url(./imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -93,4 +98,14 @@ footer{
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    header > h1{
+        font-size: 3em;
+    }
+
+    p, footer {
+        font-size: 0.8em;
+    }
 }
