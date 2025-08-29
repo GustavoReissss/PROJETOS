@@ -100,7 +100,7 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     header > h1{
         font-size: 3em;
     }
