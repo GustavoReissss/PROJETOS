@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(./imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.celular{
+    width: 400px;
+    height: 800px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(./imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+iframe{
+    width: 345px;
+    height: 605px; 
+    margin-top: 100px; 
+    background-image: url(./imagens/tela-home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin: 20px;
+    list-style: none;
+
+}
+
+li{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.1s ease;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.home{
+    background-image: url(./imagens/logo-home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.youtube{
+    background-image: url(./imagens/logo-youtube.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    background-image: url(./imagens/logo-home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.gihub{
+    background-image: url(./imagens/logo-github.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.instagram{
+    background-image: url(./imagens/logo-instagram.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.twitter{
+    background-image: url(./imagens/logo-twitter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.facebook{
+    background-image: url(./imagens/logo-facebook.jpg);
+    background-position: center;
+    background-size: cover;
+}
