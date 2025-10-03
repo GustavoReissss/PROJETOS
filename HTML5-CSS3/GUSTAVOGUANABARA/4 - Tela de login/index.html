@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Tela de login</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <main>
-        <section id="login">
-            <div id="imagem">
-                Foto
-            </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.phc" method="post">
-                    
-                </form>
-
-            </div>
-        </section>
+      <section id="login">
+        <div id="imagem"></div>
+        <div id="formulario">
+          <h1>Login</h1>
+          <p>
+            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
+            poder fazer as configurações no seu ambiente.
+          </p>
+          <form action="login.phc" method="post" autocomplete="off">
+            <p class="input-background">
+              <label for="iemail"><img src="./imagens/person_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" alt="person"></label>
+              <input type="text" name="email" id="iemail" />
+            </p>
+            <p class="input-background">
+              <label for="isenha"><img src="./imagens/vpn_key_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" alt="password"></label>
+              <input type="password" name="senha" id="isenha" />
+            </p>
+            <p class="input-background"><input type="submit" value="Enviar"></p>
+            <button>Esqueceu a senha <img src="./imagens/drafts_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="email"></button>
+          </form>
+        </div>
+      </section>
     </main>
-
-    
-</body>
+  </body>
 </html>

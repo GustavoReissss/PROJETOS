@@ -6,3 +6,44 @@
     Lilás: #5f2c82
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #49a09d, #5f2c82 );
+    background-repeat: no-repeat;
+}
+
+main{
+    margin: auto;
+    margin-top: 100px;
+    /* border: 1px solid; */
+    width: 90vw;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#imagem{
+    background-image: url(./imagens/pexels-sean-whang-25006-804269\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#formulario > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+#formulario > p {
+    margin: 10px;
+}
+
+.input-background{
+    background-color: blueviolet;
+}
