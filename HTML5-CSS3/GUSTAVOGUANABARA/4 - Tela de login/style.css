@@ -14,16 +14,17 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(to bottom, #49a09d, #5f2c82 );
+    /* background: linear-gradient(to bottom, #49a09d, #5f2c82 ); */
+    background-color: #5f2c82;
     background-repeat: no-repeat;
 }
 
 main{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     /* border: 1px solid; */
-    width: 90vw;
-    border-radius: 10px;
+    width: 70vw;
+    border-radius: 15px;
     overflow: hidden;
     background-color: white;
 }
@@ -32,7 +33,11 @@ main{
     background-image: url(./imagens/pexels-sean-whang-25006-804269\ \(1\).jpg);
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 250px;
+}
+
+#formulario{
+    margin: 5px;
 }
 
 #formulario > h1{
@@ -45,5 +50,50 @@ main{
 }
 
 .input-background{
-    background-color: blueviolet;
+    background-color: rgb(114, 42, 180);
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+label > img{
+    width: 32px;
+    margin: 5px;
+    margin-bottom: -10px;
+    padding: 5px;
+}
+
+.submit{
+    background-color: #49a09d;
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 10px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #49a09d;
+    color: #49a09d;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
