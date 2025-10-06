@@ -20,9 +20,10 @@ body{
 }
 
 main{
-    margin: auto;
-    margin-top: 50px;
-    /* border: 1px solid; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 70vw;
     border-radius: 15px;
     overflow: hidden;
@@ -50,7 +51,7 @@ main{
 }
 
 .input-background{
-    background-color: rgb(114, 42, 180);
+    background-color: #5f2c82;
     margin: auto;
     margin-bottom: 5px;
     border-radius: 10px;
