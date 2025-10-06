@@ -24,7 +24,7 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 70vw;
+    width: 80vw;
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
