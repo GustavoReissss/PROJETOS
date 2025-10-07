@@ -11,19 +11,19 @@
       <section id="login">
         <div id="imagem"></div>
         <div id="formulario">
-          <h1>Login</h1>
+          <h2>Login</h2>
           <p>
             Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
             poder fazer as configurações no seu ambiente.
           </p>
-          <form action="login.phc" method="post" autocomplete="off">
+          <form action="login.php" method="post" autocomplete="off">
             <p class="input-background">
               <label for="iemail"><img src="./imagens/person_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" alt="person"></label>
-              <input type="text" name="email" id="iemail" />
+              <input type="text" name="email" id="iemail" placeholder="Seu e-mail" required />
             </p>
             <p class="input-background">
               <label for="isenha"><img src="./imagens/vpn_key_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" alt="password"></label>
-              <input type="password" name="senha" id="isenha" />
+              <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8"/>
             </p>
             <p><input class="submit" type="submit" value="Entrar"></p>
             <button>Esqueci a senha <img src="./imagens/mail_32dp_49A09D_FILL1_wght400_GRAD0_opsz40.png" alt="email" width="24px"></button>
