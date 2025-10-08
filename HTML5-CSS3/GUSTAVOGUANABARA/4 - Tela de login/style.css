@@ -115,8 +115,7 @@ button:hover{
 
 @media screen and (min-width: 768px){
     body{
-        /* background: linear-gradient(to bottom, #49a09d, #5f2c82 ); */
-        background-color: black;
+        background: linear-gradient(to bottom, #49a09d, #5f2c82 );
     }
 
     main{
@@ -130,9 +129,6 @@ button:hover{
         height: 350px;
     }
 
-    #formulario{
-        /* width: 50%; */
-    }
 
     #imagem{
         width: 80%;
