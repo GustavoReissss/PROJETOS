@@ -3,33 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Tela de login</title>
   </head>
   <body>
     <main>
-      <section id="login">
-        <div id="imagem"></div>
-        <div id="formulario">
-          <h2>Login</h2>
-          <p>
-            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
-            poder fazer as configurações no seu ambiente.
-          </p>
-          <form action="login.php" method="post" autocomplete="off">
-            <p class="input-background">
-              <label for="iemail"><img src="./imagens/person_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" alt="person"></label>
-              <input type="text" name="email" id="iemail" placeholder="Seu e-mail" required />
-            </p>
-            <p class="input-background">
-              <label for="isenha"><img src="./imagens/vpn_key_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.png" alt="password"></label>
-              <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8"/>
-            </p>
-            <p><input class="submit" type="submit" value="Entrar"></p>
-            <button>Esqueci a senha <img src="./imagens/mail_32dp_49A09D_FILL1_wght400_GRAD0_opsz40.png" alt="email" width="24px"></button>
-          </form>
-        </div>
-      </section>
+        <section id="login">
+          <div id="imagem">
+              <!--Aqui vai a imagem nas CSS -->
+          </div>
+          <div id="formulario">
+              <h1>Login</h1>
+              <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
+              poder fazer as configurações no seu ambiente.</p>
+            <form action="login.php" method="post" autocomplete="on">
+                  <div class="campo">
+                    <i class="material-icons">person</i>
+                    <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+                    <label for="ilogin">logim</label>
+                  </div>
+
+                  <div class="campo">
+                    <i class="material-icons">vpn_key</i>
+                    <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                    <label for="isenha">Senha</label>
+                  </div>
+                  <input type="submit" value="Entrar">
+                  <a href="esqueci.html" class="botao">
+                    Esqueci a senha <i class="material-icons">mail</i>
+                  </a>
+            </form>
+          </div>
+        </section>
     </main>
   </body>
 </html>
