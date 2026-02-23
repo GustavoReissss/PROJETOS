@@ -2,7 +2,8 @@
 
 *{
     margin: 0;
-    padding: 0;box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,9 +12,15 @@ body{
     line-height: 1.5em;
 }
 
-p, h1, h2{
+p{
     margin-bottom: 10px;
     text-align: justify;
+}
+
+h1, h2{
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
 }
 
 header, section.normal{
@@ -22,5 +29,38 @@ header, section.normal{
 
 section.flex-content{
     padding: 20px;
-    background-color: rgb(156, 156, 156);
+    background-color: #E3E3E1;
+}
+
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+.text{
+    flex: 1 1 500px;
+}   
+
+.media{
+    flex: 1 0 400px;
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
+    width: 90%;
 }
