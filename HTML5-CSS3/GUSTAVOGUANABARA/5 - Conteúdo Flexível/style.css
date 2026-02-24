@@ -36,12 +36,14 @@ article.text-media{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    gap: 20px;
 }
 
 article.media-text{
     display: flex;
     flex-flow: row wrap-reverse;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .text{
@@ -49,18 +51,19 @@ article.media-text{
 }   
 
 .media{
-    flex: 1 0 400px;
+    flex: 1 1 300px;
 }
 
 div.media > img{
     display: block;
     margin: auto;
-    width: 300px;
-    padding: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 div.media > iframe{
     display: block;
     margin: auto;
-    width: 90%;
+    max-width: 100%;
 }
+
