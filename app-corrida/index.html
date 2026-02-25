@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analisador de Corridas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="phone-mockup" aria-label="Tela simulada do app de corrida">
+        <div class="map-bg"></div>
+
+        <article class="metric-card" aria-live="polite">
+          <div class="metric-line metric-km">
+            <span class="bar"></span>
+            <p><strong id="valorKm">2,00</strong> <span>/km</span></p>
+          </div>
+
+          <div class="metric-line metric-hour">
+            <span class="bar"></span>
+            <p><strong id="valorHora">38,86</strong> <span>/hr</span></p>
+          </div>
+
+          <p class="metric-footer">
+            <span class="badge-app" id="badgeApp">UBER</span>
+            <span id="resumoTempoDistancia">0h13m • 4.20km</span>
+          </p>
+        </article>
+
+        <article class="ride-sheet">
+          <header>
+            <p class="ride-tag" id="tipoCorrida">UberX</p>
+            <button type="button" aria-label="Fechar">✕</button>
+          </header>
+
+          <h1 id="valorCorrida">R$ 8,42</h1>
+
+          <div class="ride-meta">
+            <span id="notaPassageiro">★ 4,87 (91)</span>
+            <span>Verificado</span>
+          </div>
+
+          <p id="resumoRota">3 minutos (0.8 km) até o embarque · Viagem de 10 minutos (3.4 km)</p>
+          <button class="cta" type="button">Selecionar</button>
+        </article>
+      </section>
+
+      <section class="panel" aria-label="Dados extraídos da tela">
+        <h2>Dados da corrida (Uber ou 99)</h2>
+        <p>Preencha os dados lidos na tela para gerar o card automaticamente.</p>
+
+        <form id="rideForm">
+          <label>
+            Plataforma
+            <select name="plataforma" id="plataforma">
+              <option value="UBER">Uber</option>
+              <option value="99">99</option>
+            </select>
+          </label>
+
+          <label>
+            Tipo da corrida
+            <input type="text" name="tipo" id="tipo" value="UberX" />
+          </label>
+
+          <label>
+            Valor da corrida (R$)
+            <input type="number" name="valor" id="valor" min="0" step="0.01" value="8.42" required />
+          </label>
+
+          <label>
+            Nota do passageiro
+            <input type="text" name="nota" id="nota" value="4,87 (91)" />
+          </label>
+
+          <label>
+            Minutos até embarque
+            <input type="number" name="minEmbarque" id="minEmbarque" min="0" step="1" value="3" required />
+          </label>
+
+          <label>
+            Km até embarque
+            <input type="number" name="kmEmbarque" id="kmEmbarque" min="0" step="0.1" value="0.8" required />
+          </label>
+
+          <label>
+            Minutos da viagem
+            <input type="number" name="minViagem" id="minViagem" min="0" step="1" value="10" required />
+          </label>
+
+          <label>
+            Km da viagem
+            <input type="number" name="kmViagem" id="kmViagem" min="0" step="0.1" value="3.4" required />
+          </label>
+
+          <button type="submit">Atualizar card</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
